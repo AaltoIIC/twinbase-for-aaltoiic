@@ -1,0 +1,8 @@
+{
+    "dt-id": "https://dtid.org/8782b367-6a91-430d-b64e-15d399d9a6f2",
+    "hosting-iri": "https://aaltoiic.twinbase.org/8782b367-6a91-430d-b64e-15d399d9a6f2",
+    "name": "Ilmatar crane",
+    "description": "Ilmatar is the name of an overhead crane located at Aalto University Industrial Internet Campus (AIIC).",
+    "baseurl": "https://aaltoiic.twinbase.org",
+    "edit": "https://github.com/AaltoIIC/twinbase-for-aaltoiic/edit/main/docs/8782b367-6a91-430d-b64e-15d399d9a6f2/index.yaml"
+}
