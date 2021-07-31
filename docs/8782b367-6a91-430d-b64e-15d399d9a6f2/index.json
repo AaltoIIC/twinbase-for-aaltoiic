@@ -1,8 +1,71 @@
 {
+    "privacy": "public",
     "dt-id": "https://dtid.org/8782b367-6a91-430d-b64e-15d399d9a6f2",
     "hosting-iri": "https://aaltoiic.twinbase.org/8782b367-6a91-430d-b64e-15d399d9a6f2",
     "name": "Ilmatar crane",
-    "description": "Ilmatar is the name of an overhead crane located at Aalto University Industrial Internet Campus (AIIC).",
+    "description": "Ilmatar is the name of an overhead crane located at Aalto University. Industrial Internet Campus (AIIC).",
     "baseurl": "https://aaltoiic.twinbase.org",
-    "edit": "https://github.com/AaltoIIC/twinbase-for-aaltoiic/edit/main/docs/8782b367-6a91-430d-b64e-15d399d9a6f2/index.yaml"
+    "edit": "https://github.com/AaltoIIC/twinbase-for-aaltoiic/edit/main/docs/8782b367-6a91-430d-b64e-15d399d9a6f2/index.yaml",
+    "owner": {
+        "name": "Aalto-yliopistos\u00e4\u00e4ti\u00f6",
+        "website": "https://www.aalto.fi"
+    },
+    "contact": {
+        "description": "See the appropriate contact people from the website.",
+        "website": "https://aalto.fi/ilmatar"
+    },
+    "manufacturer": {
+        "name": "Konecranes",
+        "website": "https://www.konecranes.com"
+    },
+    "features": [
+        {
+            "name": "MindSphere data gathering",
+            "description": "Various data from the Ilmatar crane is gathered to MindSphere. The data includes e.g. 3D position, load, and condition monitoring data.",
+            "adresses": {
+                "data-view": {
+                    "address": "https://aiicd1-fleetmanager.eu1.mindsphere.io/#aHierarchy/aTree/Aspects?assetId=d0fbce04cac947ec8919fb8960209cc9&treeSelected=ead48058dc1346faa243b3536ab8b079&start=1546300800000&end=1640995140000&exCharts=0&screen=15",
+                    "description": "Presents a view of historical movement data of Ilmatar between years 2019-2021.",
+                    "notes": "If you were not signed in when accessing the URL, click the link again after sing-in for direct access to the data view."
+                },
+                "configuration-view": {
+                    "address": "https://aiicd1-assetmanager.eu1.mindsphere.io/entity/ead48058dc1346faa243b3536ab8b079/details",
+                    "description": "Includes MindSphere assets related to Ilmatar crane. Configure these to modify data gathering parameteres."
+                }
+            },
+            "requirement": "Access to MindSphere the tenant of Aalto Industrial Internet Campus."
+        },
+        {
+            "name": "OSEMA sensors",
+            "description": "Some OSEMA sensors have been retrofitted to the crane. Ask for more information.",
+            "documentation": "https://github.com/AaltoIIC/OSEMA/blob/master/Documentation.md"
+        },
+        {
+            "name": "Teamcenter data",
+            "description": "Aalto Teamcenter instance includes 3D model of the crane without business criticial parts.",
+            "requirement": "Access to Aalto Teamcenter.",
+            "documentation": "https://www.plm.automation.siemens.com/global/en/products/teamcenter/"
+        },
+        {
+            "name": "OPC UA interface",
+            "description": "OPC UA server allows real-time monitoring and control of the crane.",
+            "requirement": "Access to Ilmatar local network, details available on request.",
+            "documentation": {
+                "address": "https://tt.eduuni.fi/sites/aalto-ilmatar/Documents/",
+                "requirement": "Registration to Ilmatar OIE at https://aalto.fi/ilmatar"
+            }
+        },
+        {
+            "name": "GraphQL interface",
+            "description": "This interface allows accessing OPC UA using GraphQL",
+            "requirement": "Access to Ilmatar local network, details available on request.",
+            "address": "http://192.168.0.77",
+            "documentation": "https://github.com/AaltoIIC/OPC-UA-GraphQL-Wrapper"
+        },
+        {
+            "name": "Ilmatar OIE",
+            "description": "The website of Ilmatar Open Innovation Environment provides human readable descrition about the crane. Further resources available after registration.",
+            "address": "https://aalto.fi/ilmatar"
+        }
+    ]
 }
