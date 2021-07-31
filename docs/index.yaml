@@ -6,3 +6,5 @@ new_twin_url: https://github.com/AaltoIIC/twinbase-for-aaltoiic/new/main?filenam
 twins:
 - url: https://aaltoiic.twinbase.org/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32
   name: Example twin
+- url: https://aaltoiic.twinbase.org/8782b367-6a91-430d-b64e-15d399d9a6f2
+  name: Ilmatar crane
