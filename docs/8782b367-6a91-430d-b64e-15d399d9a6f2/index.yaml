@@ -55,3 +55,7 @@ features:
   description: The website of Ilmatar Open Innovation Environment provides human readable
     descrition about the crane. Further resources available after registration.
   address: https://aalto.fi/ilmatar
+relations:
+- dt-id: https://dtid.org/earth
+  name: Earth
+  relationType: parent
