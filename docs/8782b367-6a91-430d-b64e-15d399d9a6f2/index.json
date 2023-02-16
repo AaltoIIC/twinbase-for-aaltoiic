@@ -25,8 +25,12 @@
             "addresses": {
                 "data-view": {
                     "address": "https://aiicd1-fleetmanager.eu1.mindsphere.io/#aHierarchy/aTree/Aspects?assetId=d0fbce04cac947ec8919fb8960209cc9&treeSelected=ead48058dc1346faa243b3536ab8b079&start=1546300800000&end=1640995140000&exCharts=0&screen=15",
-                    "description": "Presents a view of historical movement data of Ilmatar between years 2019-2021.",
+                    "description": "Presents a view of historical movement data of Ilmatar between years 2019-2021. Will be deprecated by Siemens shortly.",
                     "notes": "If you were not signed in when accessing the URL, click the link again after sing-in for direct access to the data view."
+                },
+                "data-view-2": {
+                    "address": "https://aiicd1-operationsinsight.eu1.mindsphere.io/explore-assets/time-series?asset=d0fbce04cac947ec8919fb8960209cc9&time=1546293600000_1577829600000_local_true",
+                    "description": "Presents historical movement data of Ilmatar between for the year 2019. Uses the Operations Insight feature of MindSphere."
                 },
                 "configuration-view": {
                     "address": "https://aiicd1-assetmanager.eu1.mindsphere.io/entity/ead48058dc1346faa243b3536ab8b079/details",
