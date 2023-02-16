@@ -28,7 +28,8 @@ features:
         after sing-in for direct access to the data view.
     data-view-2:
       address: https://aiicd1-operationsinsight.eu1.mindsphere.io/explore-assets/time-series?asset=d0fbce04cac947ec8919fb8960209cc9&time=1546293600000_1577829600000_local_true
-      description: Presents historical movement data of Ilmatar between for the year 2019. Uses the Operations Insight feature of MindSphere.
+      description: Presents historical movement data of Ilmatar between for the year
+        2019. Uses the Operations Insight feature of MindSphere.
     configuration-view:
       address: https://aiicd1-assetmanager.eu1.mindsphere.io/entity/ead48058dc1346faa243b3536ab8b079/details
       description: Includes MindSphere assets related to Ilmatar crane. Configure
